@@ -1,3 +1,12 @@
 .ListeDossiers {
-    background-color: cyan;
+    margin: 50px;
+
+    .ul-dossiers {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-around;
+        margin: 0;
+        padding: 0;
+    }
 }
